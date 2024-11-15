@@ -1,0 +1,9 @@
+a={
+    "name":"saran",
+    "fav-color":"black",
+    "location":"Trichy",
+    "Age":"22"
+    }
+print(a.keys())
+print(a.values())
+print(a)

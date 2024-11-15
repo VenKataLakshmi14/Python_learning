@@ -12,5 +12,7 @@ my_list.append(70)
 print("New list:",my_list)
 my_list.pop()
 print(my_list)
+my_list.pop(2)
+print(my_list)
 
 
