@@ -26,6 +26,8 @@ def guessing_game():
             print("Too high!")
     else:
         print(f"Sorry, you failed. The secret number was {secret_number}.")
+        # If all attempts are used without guessing correctly, reveal the secret number
+
 
 # Run the game
 guessing_game()
