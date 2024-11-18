@@ -10,11 +10,13 @@ def guessing_game():
         except ValueError:
             print("Invalid input. Please enter a number.")
             continue
-
+      
+        # Check if the guess is within the valid range 1 to 10
         if guess < 1 or guess > 10:
             print("Out of range. Please guess a number between 1 and 10.")
             continue
 
+       # Compare the guess with the secret number and provide feedback
         if guess == secret_number:
             print("You won!")
             break
