@@ -1,5 +1,4 @@
 from langdetect import detect
-text = "AI is transforming the tech industry."
+text = "ನಿಮ್ಮ ಕೈಲಾದಷ್ಟು ಮಾಡಿ"
 language = detect(text)
 print(language)
-
