@@ -6,4 +6,4 @@ if age >= 18 and experience >= 2:
 elif age >= 25 or experience > 5:
     print("You are eligible for the job based on age or experience.")
 else:
-    print("You are not eligible for the job.")
+    print("You are not eligible for the job.") 
