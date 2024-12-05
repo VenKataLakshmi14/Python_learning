@@ -6,4 +6,3 @@ def foobar(n: int, conditions: dict = {3: "foo", 5: "bar", 15: "foobar"}) -> Lis
 
 n = 20
 print(foobar(n))
-
